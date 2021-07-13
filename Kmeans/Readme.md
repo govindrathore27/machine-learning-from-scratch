@@ -18,3 +18,6 @@
 ## Elbow Method:
 Elbow method gives us an idea on what a good k number of clusters would be based on the sum of squared distance (SSE) \
 between data points and their assigned clusters’ centroids. 
+
+Note:
+For the dataset,click [here](https://www.kaggle.com/kandij/mall-customers)
