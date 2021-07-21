@@ -11,10 +11,15 @@ e can throw away the lower ranked components as they contain little signal).
 - ## RDA :
 -  Regularized discriminant analysis uses the same general setup as LDA and QDA but estimates the covariance in a new way, which combines the covariance of QDA using (Σk) and with the covariance of LDA (Σ) using tuning parameter λ.
 
-![rda_1]()
+![rda_1](https://github.com/govindrathore27/machine-learning-from-scratch/blob/main/PCA%20%26%20RDA/rda_1.PNG)
+
 
 Other interpretation of this will be :
-![rda_2]()
+
+
+![rda_2](https://github.com/govindrathore27/machine-learning-from-scratch/blob/main/PCA%20%26%20RDA/rda_2.PNG)
+
+
 Both γ and λ can be thought of as mixing parameters, as they both take values between 0 and 1. For the four extremes of γ and λ, the covariance structure reduces to special cases:
 - (γ=0,λ=0): QDA - individual covariance for each group.
 - (γ=0,λ=1): LDA - a common covariance matrix.
@@ -22,3 +27,5 @@ Both γ and λ can be thought of as mixing parameters, as they both take values 
 - (γ=1,λ=1): Classification using euclidean distance - as in previous case, but variances are the same for all groups. Objects are assigned to group with nearest mean.
 
 Link to the research for [RDA](https://web.stanford.edu/~hastie/Papers/RDA-6.pdf)
+
+Dataset link : [DevnagriHandwrittenCharacterDataset](https://archive.ics.uci.edu/ml/machine-learning-databases/00389/DevanagariHandwrittenCharacterDataset.zip)
